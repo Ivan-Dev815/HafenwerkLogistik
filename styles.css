@@ -1,6 +1,6 @@
 /* Color de marca de toda la pagina*/
 :root {
-  --full-color: #2E7D5B;
+  --brand-color: #2E7D5B;
 }
 
 * { box-sizing: border-box; }
@@ -28,11 +28,11 @@ body {
   font-size: 22px;
   font-weight: 700;
   text-decoration: none;
-  color: var(--full-color);
+  color: var(--brand-color);
 }
 nav { display: flex; gap: 24px; align-items: center; }
 nav a { text-decoration: none; color: #1a2630; }
-nav a:hover { color: var(--full-color); }
+nav a:hover { color: var(--brand-color); }
 .nav-phone { font-weight: 600; white-space: nowrap; }
 
 /* Portada */
@@ -46,7 +46,7 @@ nav a:hover { color: var(--full-color); }
 
 .btn {
   display: inline-block;
-  background: var(--full-color);
+  background: var(--brand-color);
   color: #ffffff;
   border: 0;
   padding: 12px 24px;
@@ -63,7 +63,7 @@ nav a:hover { color: var(--full-color); }
 .section h2 {
   margin: 0 0 28px;
   font-size: 30px;
-  border-bottom: 3px solid var(--full-color);
+  border-bottom: 3px solid var(--brand-color);
   display: inline-block;
 }
 .narrow { max-width: 640px; }
@@ -72,7 +72,7 @@ nav a:hover { color: var(--full-color); }
 .card {
   background: #ffffff;
   padding: 24px;
-  border-top: 4px solid var(--full-color);
+  border-top: 4px solid var(--brand-color);
 }
 .card h3 { margin-top: 0; }
 
